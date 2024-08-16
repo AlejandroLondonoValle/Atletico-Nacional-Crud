@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "Jugadores";
+}
+@model List<AtleticoNacionalCRUD.Models.Jugador>;
+
+<div class="text-center">
+    <h1 class="display-4">¡Estos son Nuestros Jugadores!</h1><br>
+
+
+    <div class="container">
+        <br><hr><br>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            @foreach (var jugador in Model)
+            {
+                <div class="card" style="width: 18rem;">
+                    <img src="@jugador.Imagen" class="card-img-top" style="height: 375px; object-fit: cover;"
+                        alt="@jugador.Nombre">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">@jugador.Nombre @jugador.Apellido</h5>
+                        <p class="card-text">
+                            <span>@jugador.Posicion</span><br>
+                            <span>@jugador.FechaNacimiento.ToShortDateString()</span><br>
+                            @jugador.Nacionalidad
+                        </p>
+                        <a class="btn btn-warning" asp-controller="Jugador" asp-action="Editar" asp-route-id="@jugador.Id">Editar</a>
+                        <a class="btn btn-danger" asp-controller="Jugador" asp-action="Eliminar" asp-route-id="@jugador.Id" onclick="confirmar()">Eliminar</a>
+        
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmar()
+        {
+            return confirm("¿Estás seguro de Eliminar este jugador?");
+        }
+    </script>
+};
