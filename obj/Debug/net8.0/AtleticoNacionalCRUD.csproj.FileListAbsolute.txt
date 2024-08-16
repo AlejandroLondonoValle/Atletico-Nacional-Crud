@@ -102,3 +102,4 @@
 /home/riwip5-007/escritorio/Música/Net Micky/Crud.v2.0/AtleticoNacionalCRUD/obj/Debug/net8.0/AtleticoNacionalCRUD.pdb
 /home/riwip5-007/escritorio/Música/Net Micky/Crud.v2.0/AtleticoNacionalCRUD/obj/Debug/net8.0/AtleticoNacionalCRUD.genruntimeconfig.cache
 /home/riwip5-007/escritorio/Música/Net Micky/Crud.v2.0/AtleticoNacionalCRUD/obj/Debug/net8.0/ref/AtleticoNacionalCRUD.dll
+/home/riwip5-007/escritorio/Música/Net Micky/Crud.v2.0/AtleticoNacionalCRUD/obj/Debug/net8.0/AtleticoNacionalCRUD.sourcelink.json
