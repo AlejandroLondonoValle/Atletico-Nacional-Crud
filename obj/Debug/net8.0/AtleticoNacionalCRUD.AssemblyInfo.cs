@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AtleticoNacionalCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18b8677a895023a735ba870084cb3d9ed6f05ecd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3171f9a995c7606abafea84fede99f99307f644b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AtleticoNacionalCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AtleticoNacionalCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

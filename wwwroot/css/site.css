@@ -1,3 +1,54 @@
+/* Estilos para el tema claro */
+body[data-bs-theme="light"] {
+  --background-color: white;
+  --text-color: black;
+  --link-color: blue;
+}
+
+/* Estilos para el tema oscuro */
+body[data-bs-theme="dark"] {
+  --background-color: black;
+  --text-color: white;
+  --link-color: rgb(255, 255, 255);
+}
+
+/* Aplicar colores de fondo y texto */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Estilo de los enlaces */
+a {
+  color: var(--link-color);
+}
+
+/* Estilos del header para el modo claro */
+body[data-bs-theme="light"] header {
+  background-color: #f8f9fa; /* Color de fondo claro */
+  color: #000; /* Color de texto oscuro */
+}
+
+/* Estilos del header para el modo oscuro */
+body[data-bs-theme="dark"] header {
+  background-color: #000000; /* Color de fondo oscuro */
+  color: #fff; /* Color de texto claro */
+}
+
+/* Enlaces en el header y nav en modo claro */
+body[data-bs-theme="light"] header a,
+body[data-bs-theme="light"] nav a {
+    color: #ffffff; /* Color de enlace en modo claro */
+}
+
+/* Enlaces en el header y nav en modo oscuro */
+body[data-bs-theme="dark"] header a,
+body[data-bs-theme="dark"] nav a {
+    color: #ffffff; /* Color de enlace en modo oscuro */
+}
+
+
+
 html {
   font-size: 14px;
 }
